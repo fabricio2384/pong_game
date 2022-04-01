@@ -24,7 +24,7 @@ oponente = pygame.Rect(10,altura_tela/2-70,10,140)
 bola_vel_x = 10 * random.choice((1,-1))  #Velocidade da bola no eixo x e y
 bola_vel_y = 10 * random.choice((1,-1))
 jogador_vel = 0
-oponente_vel = 20
+oponente_vel = 50
 
 bola_som = mixer.Sound('sfx_movement_ladder1b.wav')
 som_derrota = mixer.Sound('sfx_sound_shutdown1.wav')
